@@ -40,13 +40,13 @@ Ce dépôt contient des exercices en **C** pour pratiquer les différentes opér
 ```bash
 gcc -o programme exerciceX.c
 ```
-## **▶️ Exécution
+## **▶️ Exécution**
 ```bash
 ./programme
 ```
 Suivez les instructions à l’écran pour tester les différentes opérations sur les listes.
-## **📁 Structure du projet
-
+## **📁 Structure du projet**
+```bash
 INF231_ListesChainees/
 ├── README.md               # Ce README principal
 ├── exercice1.c             # ❌ Exercice 1 : suppression d’occurrences
@@ -61,10 +61,10 @@ INF231_ListesChainees/
     ├── AKANA_SIGNING_JOSIAS_AARON.md
     ├── KAMENI_FRANCK_ARTHUR.md
     └── NGINTEDEM_NGUIMTSOP_Roel_Parfait.md
-
+```
     💡 Chaque fichier dans le dossier doc contient le README personnel de chaque étudiant avec ses contributions et commentaires.
 
-## **👥 Memebre du Groupe
+## **👥 Memebre du Groupe**
 
     Nsangou Nkanjone Manuel Decency (24H2072)
 
@@ -78,6 +78,6 @@ INF231_ListesChainees/
 
     NGINTEDEM NGUIMTSOP Roel Parfait (24H2418)
 
-## **📜 Licence
+## **📜 Licence**
 
 Projet à but pédagogique, libre d’utilisation pour l’apprentissage.
