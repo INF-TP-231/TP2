@@ -1,7 +1,6 @@
 # 📚 Exercices INF 231 – Listes chaînées
 
-**Cours :** INF 231  
-**Date :** 🗓️ Jeudi 25 septembre 2025  
+**UE :** INF 231  
 **Enseignant :** Pr. Melatagia  
 
 Ce dépôt contient des exercices en **C** pour pratiquer les différentes opérations sur les listes chaînées : simples, doubles et circulaires. Les exercices incluent des opérations courantes telles que l’insertion, la suppression et le parcours de liste.  
