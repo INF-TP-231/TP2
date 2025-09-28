@@ -30,7 +30,8 @@ Ce dépôt contient des exercices en **C** pour pratiquer les différentes opér
 ## 💻 **Prérequis**
 
 - Compilateur C (ex. `gcc`)  
-- Terminal ou interface en ligne de commande  
+- Terminal ou interface en ligne de commande
+- Editeur de text comme Vscode, DEvc++ ou autre
 
 ---
 
@@ -38,13 +39,13 @@ Ce dépôt contient des exercices en **C** pour pratiquer les différentes opér
 
 ```bash
 gcc -o programme exerciceX.c
-
-▶️ Exécution
-
+```
+## **▶️ Exécution
+```bash
 ./programme
-
+```
 Suivez les instructions à l’écran pour tester les différentes opérations sur les listes.
-📁 Structure du projet
+## **📁 Structure du projet
 
 INF231_ListesChainees/
 ├── README.md               # Ce README principal
@@ -63,7 +64,7 @@ INF231_ListesChainees/
 
     💡 Chaque fichier dans le dossier doc contient le README personnel de chaque étudiant avec ses contributions et commentaires.
 
-👥 Memebre du Groupe
+## **👥 Memebre du Groupe
 
     Nsangou Nkanjone Manuel Decency (24H2072)
 
@@ -77,6 +78,6 @@ INF231_ListesChainees/
 
     NGINTEDEM NGUIMTSOP Roel Parfait (24H2418)
 
-📜 Licence
+## **📜 Licence
 
 Projet à but pédagogique, libre d’utilisation pour l’apprentissage.
