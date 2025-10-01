@@ -1,4 +1,4 @@
-# 📚 Implémentation d'une Liste Doublement Chaînée Circulaire en C
+# 📚 EXERCICE2 INF231: Implémentation d'une Liste Doublement Chaînée Circulaire en C
 
 ---
 
