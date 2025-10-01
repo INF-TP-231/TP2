@@ -48,7 +48,7 @@ Suivez les instructions à l’écran pour tester les différentes opérations s
 ```bash
 INF231_ListesChainees/
 ├── README.md               # Ce README principal
-├── exercice1.c             # ❌ Exercice 1 : suppression d’occurrences
+├──  Insertion d'un élément dans une liste simplement chaîne trié.c           # ❌ Exercice 1 : suppression d’occurrences
 ├── exercice2.c             # 🔢 Exercice 2 : insertion liste simplement chaînée triée
 ├── exercice3.c             # 🔢 Exercice 3 : insertion liste doublement chaînée triée
 ├── exercice4.c             # 🔄 Exercice 4 : insertion tête/queue liste circulaire simple
