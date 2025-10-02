@@ -1,82 +1,136 @@
-# 📚 Exercices INF 231 – Listes chaînées
+# Insertion dans une Liste Simplement Chaînée Triée
 
-**UE :** INF 231  
-**Enseignant :** Pr. Melatagia  
-
-Ce dépôt contient des exercices en **C** pour pratiquer les différentes opérations sur les listes chaînées : simples, doubles et circulaires. Les exercices incluent des opérations courantes telles que l’insertion, la suppression et le parcours de liste.  
-
----
-
-## 📝 **Exercices inclus**
-
-1. **❌ Supprimer toutes les occurrences d’un élément**  
-   - Lire un élément et supprimer toutes ses occurrences dans une liste simplement chaînée.
-
-2. **🔢 Insertion dans une liste simplement chaînée triée**  
-   - Insérer un élément à sa position correcte pour maintenir l’ordre trié de la liste.
-
-3. **🔢 Insertion dans une liste doublement chaînée triée**  
-   - Insérer un élément dans une liste doublement chaînée triée en conservant l’ordre.
-
-4. **🔄 Insertion en tête et en queue dans une liste simplement chaînée circulaire**  
-   - Insérer un élément au début ou à la fin d’une liste simplement chaînée circulaire.
-
-5. **🔄 Insertion en tête et en queue dans une liste doublement chaînée circulaire**  
-   - Insérer un élément au début ou à la fin d’une liste doublement chaînée circulaire.
+## 👤 Informations de l'étudiant
+- **Nom:** AKANA SIGNING JOSIAS AARON
+- **Matricule:** 24H2358
 
 ---
 
-## 💻 **Prérequis**
+## 📝 Description du projet
 
-- Compilateur C (ex. `gcc`)  
-- Terminal ou interface en ligne de commande
-- Editeur de text comme Vscode, DEvc++ ou autre
+Ce projet implémente une structure de données de liste simplement chaînée triée en langage C. Il permet d'insérer des éléments tout en maintenant automatiquement l'ordre croissant de la liste.
+
+## 🎯 Objectifs
+
+- Comprendre et implémenter une liste simplement chaînée
+- Maintenir l'ordre trié lors des insertions
+- Gérer la mémoire dynamique en C
+- Maîtriser les pointeurs et les structures
+
+## 🔧 Fonctionnalités
+
+### Fonctions principales
+
+1. **`creerNoeud(int valeur)`**
+   - Crée un nouveau nœud avec la valeur spécifiée
+   - Alloue dynamiquement la mémoire nécessaire
+
+2. **`insererTrie(Noeud* tete, int valeur)`**
+   - Insère un élément à sa position correcte dans la liste triée
+   - Maintient l'ordre croissant
+   - Gère tous les cas : liste vide, insertion au début, au milieu, à la fin
+
+3. **`afficherListe(Noeud* tete)`**
+   - Affiche tous les éléments de la liste
+   - Format : `valeur1 -> valeur2 -> valeur3`
+
+4. **`libererListe(Noeud* tete)`**
+   - Libère toute la mémoire allouée pour la liste
+   - Évite les fuites mémoire
+
+## 📊 Complexité
+
+- **Insertion:** O(n) dans le pire cas
+- **Affichage:** O(n)
+- **Espace mémoire:** O(n)
+
+## 🚀 Compilation et exécution
+
+### Compilation
+```bash
+gcc liste_chainee_triee.c -o liste_triee
+```
+
+### Exécution
+```bash
+./liste_triee
+```
+
+## 💡 Exemple d'utilisation
+
+```c
+Noeud* liste = NULL;
+
+// Insertions
+liste = insererTrie(liste, 5);  // Liste: 5
+liste = insererTrie(liste, 2);  // Liste: 2 -> 5
+liste = insererTrie(liste, 8);  // Liste: 2 -> 5 -> 8
+liste = insererTrie(liste, 1);  // Liste: 1 -> 2 -> 5 -> 8
+
+// Affichage
+afficherListe(liste);
+
+// Libération mémoire
+libererListe(liste);
+```
+
+## 📋 Résultat attendu
+
+```
+=== Insertion dans une liste simplement chaînée triée ===
+
+Insertion de 5:
+Liste: 5
+
+Insertion de 2:
+Liste: 2 -> 5
+
+Insertion de 8:
+Liste: 2 -> 5 -> 8
+
+Insertion de 1:
+Liste: 1 -> 2 -> 5 -> 8
+
+Insertion de 6:
+Liste: 1 -> 2 -> 5 -> 6 -> 8
+
+Insertion de 3:
+Liste: 1 -> 2 -> 3 -> 5 -> 6 -> 8
+
+Insertion de 9:
+Liste: 1 -> 2 -> 3 -> 5 -> 6 -> 8 -> 9
+```
+
+## 🔍 Cas traités
+
+- ✅ Liste vide
+- ✅ Insertion au début (valeur minimale)
+- ✅ Insertion au milieu
+- ✅ Insertion à la fin (valeur maximale)
+- ✅ Gestion des doublons
+
+## ⚠️ Points importants
+
+- Toujours libérer la mémoire avec `libererListe()` pour éviter les fuites
+- La fonction `insererTrie()` retourne le nouveau pointeur de tête
+- La liste est triée par ordre croissant
+
+## 📚 Concepts utilisés
+
+- Structures en C
+- Pointeurs et allocation dynamique (`malloc`, `free`)
+- Listes chaînées
+- Algorithmes de tri et d'insertion
+
+## 🛠️ Améliorations possibles
+
+- Ajouter une fonction de suppression d'élément
+- Implémenter la recherche d'un élément
+- Créer une fonction de fusion de deux listes triées
+- Ajouter le tri par ordre décroissant
 
 ---
 
-## ⚙️ **Compilation**
-
-```bash
-gcc -o programme exerciceX.c
-```
-## **▶️ Exécution**
-```bash
-./programme
-```
-Suivez les instructions à l’écran pour tester les différentes opérations sur les listes.
-## **📁 Structure du projet**
-```bash
-INF231_ListesChainees/
-├── README.md               # Ce README principal
-├──  Insertion d'un élément dans une liste simplement chaîne trié.c           # ❌ Exercice 1 : suppression d’occurrences
-├── insertionheadqueue.c             # 🔢 Exercice 2 : insertion liste simplement chaînée triée
-├── exercice3.c             # 🔢 Exercice 3 : insertion liste doublement chaînée triée
-├── exercice4.c             # 🔄 Exercice 4 : insertion tête/queue liste circulaire simple
-├── exercice5.c             # 🔄 Exercice 5 : insertion tête/queue liste circulaire double
-└── doc/                    # 📄 READMEs individuels des étudiants
-    ├── Nsangou_Nkanjone_Manuel_Decency.md
-    ├── ASSOGO_MANGA_GEORGES_MATHURIN.md
-    ├── YVANA_EMILIA_LALANE_LARCIER.md
-    ├── AKANA_SIGNING_JOSIAS_AARON.md
-    ├── KAMENI_FRANCK_ARTHUR.md
-    └── NGINTEDEM_NGUIMTSOP_Roel_Parfait.md
-```
-    💡 Chaque fichier dans le dossier doc contient le README personnel de chaque étudiant avec ses contributions et commentaires.
-
-## **👥 Memebre du Groupe**
-
-    Nsangou Nkanjone Manuel Decency (24H2072)
-
-    ASSOGO MANGA GEORGES MATHURIN (24G2280)
-
-    YVANA EMILIA LALANE LARCIER (24G2439)
-
-    AKANA SIGNING JOSIAS AARON (24H2358)
-
-    KAMENI FRANCK ARTHUR (24G2149)
-
-    NGINTEDEM NGUIMTSOP Roel Parfait (24H2418)
-
-## **📜 Licence**
-
-Projet à but pédagogique, libre d’utilisation pour l’apprentissage.
+**Date de création:** Octobre 2025  
+**Langage:** C  
+**Compilateur testé:** GCC
