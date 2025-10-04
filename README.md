@@ -75,7 +75,7 @@ INF231_ListesChainees/
 
     KAMENI FRANCK ARTHUR (24G2149)
 
-    NGINTEDEM NGUIMTSOP Roel Parfait (24H2418)
+    NGNINTEDEM NGUIMTSOP Roel Parfait (24H2418)
 
 ## **📜 Licence**
 
