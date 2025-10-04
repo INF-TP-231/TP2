@@ -4,7 +4,7 @@
 
 ##  Informations du Projet
 
-- **Nom du fichier** : `insertionheadqueue.c`
+- **Nom du fichier** : `insertionheadqueuedoublementcir.c`
 - **Superviseur** : Professeur Melatagia
 - **Auteur** : Nsangou Nkanjone Manuel Decency
 
@@ -98,7 +98,7 @@ La fonction de test automatique démontre :
 ##   Compilation & Exécution
 
 ```bash
-gcc insertionheadqueue.c -o liste_circulaire
+gcc insertionheadqueuedoublementcir.c -o liste_circulaire
 ./liste_circulaire
 ```
 
