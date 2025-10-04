@@ -59,7 +59,7 @@ INF231_ListesChainees/
     ├── YVANA_EMILIA_LALANE_LARCIER.md
     ├── AKANA_SIGNING_JOSIAS_AARON.md
     ├── KAMENI_FRANCK_ARTHUR.md
-    └── NGNINTEDEM_NGUIMTSOP_Roel_Parfait.md
+    └── NGNINTEDEM_NGUIMTSOP_Roèl_Parfait.md
 ```
     💡 Chaque fichier dans le dossier doc contient le README personnel de chaque étudiant avec ses contributions et commentaires.
 
@@ -75,7 +75,7 @@ INF231_ListesChainees/
 
     KAMENI FRANCK ARTHUR (24G2149)
 
-    NGNINTEDEM NGUIMTSOP Roel Parfait (24H2418)
+    NGNINTEDEM NGUIMTSOP Roèl Parfait (24H2418)
 
 ## **📜 Licence**
 
