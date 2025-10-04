@@ -59,7 +59,7 @@ INF231_ListesChainees/
     ├── YVANA_EMILIA_LALANE_LARCIER.md
     ├── AKANA_SIGNING_JOSIAS_AARON.md
     ├── KAMENI_FRANCK_ARTHUR.md
-    └── NGINTEDEM_NGUIMTSOP_Roel_Parfait.md
+    └── NGNINTEDEM_NGUIMTSOP_Roel_Parfait.md
 ```
     💡 Chaque fichier dans le dossier doc contient le README personnel de chaque étudiant avec ses contributions et commentaires.
 
